@@ -1,16 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-<script src="https://kit.fontawesome.com/1440e3f216.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Netflix - O melhor do entretenimento</title>
+  </head>
+  <body>
+    <!-- cabecalho -->
+    <header class="cabecalho">
+      <nav class="navegacao">
+        <h2 class="logo">NETFLIX</h2>
+        <button class="btnButton">Entrar</button>
+      </nav>
+
+      <!-- início corpo -->
+      <div class="promo">
+        <h1 class="tituloPromo">
+          100% diversão. R$0,20 nos primeiros 30 dias.
+        </h1>
+        <h2 class="promoSubtitulo">
+          Assista onde quiser. Cancele quando quiser
+        </h2>
+        <div class="emailForm">
+          <h3 class="tituloForm">
+            Pronto para assistir? Informe seu email para criar ou reiniciar sua
+            assinatura.
+          </h3>
+          <div class="formSimples">
+            <input type="text" class="campoEmail" placeholder="Email" />
+            <button class="btnPromo">EXPERIMENTE JÁ POR R$0,20 ></button>
+          </div>
+        </form>
+        <h3 class="rodapeForm">
+          Oferta disponível somente para não assinantes.
+        </h3>
+      </div>
+    </header>
+
+    <!-- meio corpo -->
+    <main>
+      <div class="meio">
+        <div class="firstDiv">
+          <div class="cardText">
+            <h1 class="title">Aproveite na TV.</h1>
+            <h2 class="subTitle">
+              Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros aparelhos.
+            </h2>
+          </div>
+          <div class="filmTv">
+            <video autoplay loop>
+             <source src="video/video-tv.mp4">
+            </video>            
+          </div>
+        </div>
+        <div class="secondDiv">
+          <img src="img/mobile-0819.jpg" alt="" srcset="" />
+          <div class="cardText">
+            <h1 class="title">Baixe séries para assistir offline.</h1>
+            <h2 class="subTitle">
+              Salve seus títulos favoritos e sempre tenha algo para assistir.
+            </h2>
+          </div>
+        </div>
+        <div class="therddDiv">
+          <div class="cardText">
+            <h1 class="title">Assista quando quiser.</h1>
+            <h2 class="subTitle">
+              Assita no celular, tablet, smartTV ou notebook sem pagar a mais
+              por isso.
+            </h2>
+          </div>
+          <img src="img/pc-series.png" alt="" class="PC" />
+        </div>
+      </div>
+
+      <!-- perguntas frequentes -->
+      <div class="questionsFreq">
+        <h1 class="questions">Perguntas frequentes</h1>
+        <ul>
+          <li class="listItem">
+            <h3>O que é a Netflix?</h3>
+            <i class="fas fa-plus"></i>
+          </li>
+          <li class="listItem">
+            <h3>Quanto custa?</h3>
+            <i class="fas fa-plus"></i>
+          </li>
+          <li class="listItem">
+            <h3>Onde posso assistir?</h3>
+            <i class="fas fa-plus"></i>
+          </li>
+          <li class="listItem">
+            <h3>Como faço para cancelar?</h3>
+            <i class="fas fa-plus"></i>
+          </li>
+        </ul>
+      </div>
+
+      <!-- form vamos lá -->
+      <form action="#" class="letsGo">
+        <h3 class="tituloForm">
+          Pronto para assistir? Informe seu email para criar ou reiniciar sua
+          assinatura.
+        </h3>
+        <ul class="formSimples">
+          <li class="campoEmail" placeholder="Email"></li>
+          <li class="btnPromo">
+            <button>VAMOS LÁ ></button>
+          </li>
+        </ul>
+      </form>
+    </main>
+
+    <!-- rodape -->
+    <footer>
+      <div class="information">
+        <div class="duvidas">
+          <p>Dúvidas? Ligue 0800 761 4031</p>
+        </div>
+        <ul class="pontos">
+          <li class="listItem">Perguntas frequentes</li>
+          <li class="listItem">Relações com investidores</li>
+          <li class="listItem">Formas de assistir</li>
+          <li class="listItem">Informações corporativas</li>
+          <li class="listItem">Centro de ajuda</li>
+          <li class="listItem">Carreiras</li>
+          <li class="listItem">Termos de uso</li>
+          <li class="listItem">Entre em contato</li>
+          <li class="listItem">Conta</li>
+          <li class="listItem">Resgatar cartão pré-pago</li>
+          <li class="listItem">Privacidade</li>
+          <li class="listItem">Teste de velocidade</li>
+          <li class="listItem">Imprensa</li>
+          <li class="listItem">Comprar cartão</li>
+          <li class="listItem">Preferências de cookies</li>
+          <li class="listItem">Avisos legais</li>
+          <li class="listItem">
+            <select name="select">
+              <option value="ingles">Inglês</option>
+              <option value="frances">Francês</option>
+              <option value="portugues">Português</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/1440e3f216.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

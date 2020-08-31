@@ -1,0 +1,139 @@
+* {
+    --vermelho:#E50914;
+    --preta:#141414;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', Times, serif;
+    font-size: 16px;
+}
+
+header nav h2{
+    color: var(--vermelho);
+    font-size: 40px;
+}
+
+.cabecalho {
+    padding: 0 56px;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('img/background.jpg');
+    background-attachment: fixed;
+}
+
+.navegacao {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacao img {
+    width: 134px;
+    height: 36px;
+}
+
+.navegacao button {
+    width: 78px;
+    height: 34px;
+    border: none;
+    background-color: #e52925;
+    color: white;
+    border-radius: 8%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.promo{
+    padding: 200px 0;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.promo .tituloPromo{
+    font-size: 3.125rem;    
+}
+
+.promo .promoSubtitulo{
+    font-weight: lighter;
+    font-size: 26px;
+    margin: 1rem auto;
+}
+
+.promo .emailForm{
+    margin: 1rem auto;
+}
+
+.promo .tituloForm{
+    font-size: 19.2px;
+    font-weight: lighter;
+    margin: 1rem auto;
+}
+
+.promo .emailForm .formSimples{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.promo .emailForm .formSimples .campoEmail{
+    width: 450px;
+    margin-right: 5px;
+    border: none;
+}
+
+.promo .emailForm .formSimples .btnPromo{
+    width: 350px;
+    background: #E50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.promo .rodapeForm{
+    font-weight: lighter;
+    font-size: 14.4px;
+}
+
+main .meio{
+    background: black;
+    padding: 56px;
+}
+
+main .meio .firstDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .meio .firstDiv .cardText{
+    color: white;
+    width: 48%;
+}
+
+main .meio .firstDiv .cardText .title{
+    font-size: 50px;
+}
+
+main .meio .firstDiv .cardText .subTitle{
+    font-size: 1.625rem;
+    font-weight: lighter;
+    margin: 1rem 0;
+    line-height: 35px;
+}
+
+main .meio .firstDiv .filmTv{
+    display: flex;
+    width: 48%;
+}
+
+main .meio .firstDiv video{
+    border-radius: 5%;
+    top: 45%;    
+    position: relative;
+    width: 100%;
+}
